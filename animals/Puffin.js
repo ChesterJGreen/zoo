@@ -1,0 +1,29 @@
+class Puffin {
+  constructor(
+    name = '',
+    color = '',
+    gender = '',
+    weight = 0,
+    wingSpan = 0,
+    beak = true,
+    prey = false,
+    aquatic = true,
+  ) {
+    this.name = name;
+    this.color = color;
+    this.gender = gender;
+    this.weight = weight;
+    this.wingSpan = wingSpan;
+    this.beak = beak;
+    this.prey = prey;
+    this.aquatic = aquatic;
+  }
+  eat(food) {
+    console.log(`Chomp chomp all the ${food}ies.`)
+  }
+  speak(noise) {
+    alert(`The ${this.constructor.name} says ${noise}!`)
+  }
+}
+
+export default Puffin;
