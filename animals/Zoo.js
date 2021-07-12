@@ -52,14 +52,8 @@ let xavier = new Xerus(Xavier, brown, male, 6, 6, 1, false)
 let yankeeDaddy = new Yak('Daddy Yankee', brown, male, 500, 6, 12, dual, true, 35)
 let zola = new Zebra(Zola, white, female, 350, 16, 2, 50, true)
 
-class SameDifferent {
-  constructor(
-    gender = '',
+class Animals {
 
-
-
-  ); {
-  this.gender = gender,
-    this.prey = prey
 }
-}
+
+export default Animals
