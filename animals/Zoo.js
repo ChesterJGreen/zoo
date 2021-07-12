@@ -54,6 +54,12 @@ let zola = new Zebra(Zola, white, female, 350, 16, 2, 50, true)
 
 class Animals {
 
+  boyOrGirl(gender) {
+    if {
+      gender = 'male'
+      return `This is the male one!`
+    }
+  }
 }
 
 export default Animals
