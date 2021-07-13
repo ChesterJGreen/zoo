@@ -8,6 +8,7 @@ class FlyingFish {
     topFlightSpeed = 0,
     bounceHeight = 0,
     prey = true,
+    aquatic = true
   ) {
     this.name = name;
     this.color = color;
@@ -17,6 +18,7 @@ class FlyingFish {
     this.topFlightSpeed = topFlightSpeed;
     this.bounceHeight = bounceHeight;
     this.prey = prey;
+    this.aquatic = aquatic;
   }
   eat(food) {
     console.log(`Slid all the ${food}ies down it's gullet.`)

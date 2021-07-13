@@ -13,8 +13,6 @@ class Woodpecker {
     this.color = color;
     this.gender = gender;
     this.weight = weight;
-    this.tailLengthInch = tailLengthInch;
-    this.teethSize = teethSize;
     this.wingspan = wingspan;
     this.topFlightSpeed = topFlightSpeed;
     this.beak = beak;
